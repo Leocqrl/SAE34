@@ -1,1 +1,0 @@
-Nous mettrons les fichiers Dockerfile dans le répertoire ci-dessus.
