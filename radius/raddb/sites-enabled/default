@@ -1,0 +1,14 @@
+server default {
+
+    authorize {
+        preprocess
+        sql
+        pap
+    }
+
+    authenticate {
+        Auth-Type PAP {
+            pap
+        }
+    }
+}
