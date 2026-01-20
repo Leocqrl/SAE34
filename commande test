@@ -24,12 +24,12 @@ docker compose logs -f vpn
 ### DNS (BIND9)
 Tester la résolution de nom depuis votre machine hôte (Mac) :
 ```bash
-dig @localhost -p 20053 vpn.lab.local
+dig @localhost -p 20053 vpn.sae34.lan
 ```
 
 Tester depuis le conteneur :
 ```bash
-docker exec dns_server dig @localhost vpn.lab.local
+docker exec dns_server dig @localhost vpn.sae34.lan
 ```
 
 ### NTP (Chrony)
